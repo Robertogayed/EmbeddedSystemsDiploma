@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	//EX2
+    int a;
+    printf("Enter a integer: ");
+    fflush(stdout);
+    scanf("%d",&a);
+    fflush(stdin);
+    printf("You entered: %d",a);
+    fflush(stdout);
+    return 0;
+    //Ex3
+
+}
