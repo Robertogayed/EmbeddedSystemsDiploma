@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-	//EX2
+	
     int a;
     printf("Enter a integer: ");
     fflush(stdout);
@@ -10,6 +10,6 @@ int main()
     printf("You entered: %d",a);
     fflush(stdout);
     return 0;
-    //Ex3
+
 
 }
