@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	float num1, num2, product ;
+	printf("enter 2 numbers:");
+	fflush(stdout);
+	scanf("%f %f ",&num1 , &num2);
+	fflush(stdin);
+	 product = num1*num2 ;
+	printf("the product is:%f", product );
+	fflush(stdout);
+	return 0;
+}
