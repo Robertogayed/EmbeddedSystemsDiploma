@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main(void) {
+	float a ,b ;
+		printf("enter 2 values a than b respectively:");
+		fflush(stdout);
+		scanf("%f %f",&a,&b);
+		fflush(stdin);
+		printf("After swapping, value of a = %.2f\n",b);
+		fflush(stdout);
+		printf("After swapping, value of b = %.2f",a);
+		fflush(stdout);
+		return 0 ;
+}
