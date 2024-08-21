@@ -1,11 +1,10 @@
 #include <stdio.h>
 int main(void) {
-
 	char x ;
 	printf("Enter an Alphabet:");
 	fflush(stdout);
 	scanf("%c",&x);
-	if(x=='a'||x=='e'||x=='u'||x=='i'||x=='o')
+	if(x=='a'||x=='e'||x=='u'||x=='i'||x=='o' || x=='A'||x=='E'||x=='U'||x=='I'||x=='O')
 	{printf("%c is vowel",x);
 	fflush(stdout);}
 	else
