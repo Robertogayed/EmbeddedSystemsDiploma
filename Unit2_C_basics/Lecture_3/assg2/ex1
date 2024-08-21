@@ -1,1 +1,16 @@
-void
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int a ;
+	printf("Enter an integer");
+	fflush(stdout);
+	scanf("%d",&a);
+	if(a%2==0)
+	{ printf("the number is even");
+		fflush(stdout); }
+	else
+	{
+	printf("the number is odd");
+	fflush(stdout); }
+}
