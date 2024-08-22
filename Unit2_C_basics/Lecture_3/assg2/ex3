@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main(void) {
+	float a,b,c;
+	printf("Enter 3 numbers you wnat to find the largest");
+	fflush(stdout);
+	scanf("%f %f %f",&a,&b,&c);
+	if(a>=b && a>=c)
+		printf("%f is the largest number",a);
+	fflush(stdout);
+	if(b>=a && b>=c)
+		printf("%f is the largest number",b);
+	fflush(stdout);
+	if(c>=b && c>=a)
+		printf("%f is the largest number",c);
+	fflush(stdout);
+	return 0 ;
+}

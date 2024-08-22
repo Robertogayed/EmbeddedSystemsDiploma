@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char c ;
+	printf("Enter a character:");
+	fflush(stdout);
+	scanf("%c",&c);
+	if (c>='a' && c<='z')
+	{	printf("%c is an alphabet",c) ;
+	fflush(stdout); }
+	else
+	{	printf("%c is not an alphabet", c) ;
+	fflush(stdout); }
+	return 0 ;
+}
