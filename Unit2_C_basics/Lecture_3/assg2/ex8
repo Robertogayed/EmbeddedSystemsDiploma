@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	char o ;
+	float a,b;
+	printf("Enter an Operator (+,-,*,/):");
+	fflush(stdout);
+	scanf("%c",&o) ;
+	printf("Enter 2 numbers:");
+	fflush(stdout);
+	scanf("%f %f",&a,&b) ;
+	switch(o)   {
+	case '+' : printf("%.2f + %.2f = %.2f",a,b,a+b);
+	break ;
+	case '-' : printf("%.2f - %.2f = %.2f",a,b,a-b);
+	break ;
+	case '*' : printf("%.2f * %.2f = %.2f",a,b,a*b);
+	break ;
+	case '/' : printf("%.2f / %.2f = %.2f",a,b,a/b);
+	break ;
+	default:
+	printf("Error! operator is not correct ");
+	fflush(stdout);
+	break ;
+	}
+	return 0 ;
+}
